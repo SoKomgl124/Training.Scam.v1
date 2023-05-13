@@ -82,8 +82,4 @@ end)
 repeat wait() until Char
 loc = Char.HumanoidRootPart.Position
 Char:MoveTo(box.Position + Vector3.new(0,.5,0))
-end)
- 
-Tab2Section:NewButton("Keyboard","Pc Like Keyboard",function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
-end)
+
